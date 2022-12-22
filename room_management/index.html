@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Quản lý phòng</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="logo.jpg" alt="">
+                        <span class="nav-item">Quản lý ký túc xá</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-item">Trang chủ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-person-circle-plus"></i>
+                        <span class="nav-item">Đăng ký phòng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-users-gear"></i>
+                        <span class="nav-item">Quản lý phòng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-shower"></i>
+                        <span class="nav-item">Dịch vụ điện nước</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="nav-item">Phản ánh</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-id-badge"></i>
+                        <span class="nav-item">Thông tin cá nhân</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-hammer"></i>
+                        <span class="nav-item">Quản trị</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="logout">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span class="nav-item">Đăng xuất</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="title-content">Trường Đại học Bách Khoa Hà Nội</div>
+            <h1 style="margin:20px 0px;">
+                <i class="entypo-right-circled"></i>
+                 Quản lý phòng    
+            </h1>
+            <br>
+            <style type="text/css">
+                table, td, th {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }
+                table{
+                    width: 800px;
+                }
+                td {
+                    padding: 4px 6px;
+                    text-align: left;
+                }
+                th {
+                    padding: 4px 6px;
+                    text-align: center;
+                }
+               </style>
+            <table id="room_member">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Họ và tên</th>
+                        <th>Ngày sinh</th>
+                        <th>MSSV</th>
+                        <th>Khoá</th>
+                        <th>Lớp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Nguyễn Hữu Tình</td>
+                        <td>14/05/2001</td>
+                        <td>20194395</td>
+                        <td>64</td>
+                        <td>Kỹ thuật máy tính 04</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nguyễn Văn B</td>
+                        <td>22/12/2001</td>
+                        <td>20199669</td>
+                        <td>64</td>
+                        <td>Kỹ thuật máy tính 03</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Trần Văn C</td>
+                        <td>11/06/2001</td>
+                        <td>20196886</td>
+                        <td>64</td>
+                        <td>Khoa học máy tính 03</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
